@@ -60,16 +60,25 @@
         -->
 
         <section>
-         <span class="background" style="background: #0e1015"></span>
           <!--.wrap = container (width: 90%) -->
           <div class="wrap aligncenter">
-            <h1><strong>Qu'est-ce que Java ?</strong></h1>
-            <p class="text-intro">Histoire de Java</p>
+            <h1><strong>Chapitre 1</strong></h1>
+            <p class="text-intro">Introduction à Java</p>
             <p>
               
             </p>
           </div>
           <!-- .end .wrap -->
+        </section>
+        <section>
+          <span data-step-count=1></span>
+          <div class="grid">
+            <div>
+              <img src="./static/images/gosling.jpeg" style="height: 300px" />
+              <h1 class="aligncenter">James Gosling</h1>
+            </div>
+            <div class="animate-show" data-step=1><img style="padding-top: 50%;" src="./static/images/sun.png" /></div>
+          </div>
         </section>
 
       </article>
@@ -87,8 +96,10 @@
 
     <!-- Required -->
     <script src="static/js/webslides.js"></script>
+    <script src="./webslides-animation.js"></script>
     <script>
       window.ws = new WebSlides();
+      new WebSlidesAnimation(window.ws);
     </script>
 
     <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->

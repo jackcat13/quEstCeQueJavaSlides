@@ -730,6 +730,10 @@ https://github.com/daneden/animate.css */
       .browser:before {
         font-size: 1.6rem; } }
 
+.grid * {
+  padding: 40px;
+}
+
 /*=== 1.4. Basic Grid (Flexible blocks)
 Auto-fill & Equal height === */
 .grid {
@@ -3061,7 +3065,7 @@ Solution: stackoverflow.com/questions/34250282/flexbox-safari-bug-flex-wrap
 /* -- Disable elastic scrolling/bounce:
 webslides.js will add .ws-ready automatically. Don't worry :) -- */
 body {
-  background-color: #f7f9fb;
+  background-color: #0e1015;
   color: #51aff7; }
 
 :focus {
@@ -3789,3 +3793,21 @@ Slides Index
 
 .text-slide-number {
   color: #abc; }
+
+.animate-show {
+  display: none !important;
+}
+.animate-show.animated {
+  display: inherit !important;
+}
+
+.example-block {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 0;
+  transition: all 500ms ease;
+}
+.example-block.animate {
+  left: calc(100% - 100px);
+}
