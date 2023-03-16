@@ -3936,3 +3936,14 @@ body{
       text-align: center;
   }
 }
+
+.niceBox{ 
+ border: solid 3px #2c67a5;
+ border-radius: 10px;
+ padding: 20px;
+ font-size: x-large;
+ font-weight: bold !important;
+ width: 350px !important;
+ height: 100px !important;
+ text-align: center;
+}
