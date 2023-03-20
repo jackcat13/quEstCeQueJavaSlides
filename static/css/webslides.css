@@ -3947,3 +3947,15 @@ body{
  height: 100px !important;
  text-align: center;
 }
+
+.important{
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.code{
+  background-color: black;
+  font-style: italic;
+  border: solid 1px #013;
+  padding: 10px;
+}

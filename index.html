@@ -113,21 +113,62 @@
         </section>
 
         <section>
-          <span data-step-count=3></span>
+          <span data-step-count=4></span>
           <header>
             <h1 class="aligncenter"><strong>Exécution du bytecode Java</strong></h1>
           </header>
-          <div style="position: absolute; top: 250px; left: 50px" class="animate-show" data-step=1>
+          <div style="position: absolute; top: 250px; left: 150px" class="animate-show" data-step=1>
             <img src="./static/images/bytecode.jpg" width="500px"/>
           </div>
-          <div style="position: absolute; top: 400px; left: 650px" class="animate-show" data-step=2>
+          <div style="position: absolute; top: 400px; left: 750px" class="animate-show" data-step=2>
             <img src="./static/images/arrowToBotRight.png"/>
           </div>
-          <div style="position: absolute; top: 450px; left: 850px" class="animate-show" data-step=2>
+          <div style="position: absolute; top: 450px; left: 950px" class="animate-show" data-step=2>
             <img src="./static/images/JVM.png" width="400px"/>
           </div>
-          <div style="position: absolute; top: 700px; left: 1300px" class="animate-show" data-step=3>
+          <div style="position: absolute; top: 700px; left: 1400px" class="animate-show" data-step=3>
             <img src="./static/images/refreshArrow.png"/>
+          </div>
+          <div style="position: absolute; top: 700px; left: 150px" class="animate-show" data-step=4>
+            <div class="important">
+              <p>
+                La machine virtuelle permet notamment :
+                <ul>
+                  <li>l'interprétation du bytecode</li>
+                  <li>l'interaction avec le système d'exploitation</li>
+                  <li>la gestion de sa mémoire grâce au ramasse-miettes</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <span data-step-count=3></span>
+          <header>
+            <h1 class="aligncenter"><strong>Les outils du JDK (Java Development Kit)</strong></h1>
+          </header>
+          <div style="position: absolute; top: 250px; left: 150px" class="animate-show" data-step=1>
+            <img src="./static/images/gears.jpg" width="200px"/>
+            <div class="important" style="margin-left: 200px;">
+              <p>Le compilateur Javac :</p>
+              <p><span class="code">javac MaClasse.java</span>  =>  MaClasse.class</p>
+            </div>
+          </div>
+          <div style="position: absolute; top: 500px; left: 150px" class="animate-show" data-step=2>
+            <img src="./static/images/JVM.png"/ width="150px">
+            <div class="important" style="margin-left: 250px;">
+              <p>L'interpréteur java / javaw : </p>
+              <p><span class="code">java MaClasse</span>  =>  Ouvre une console et exécute le bytecode MaClass.class</p>
+              <p><span class="code">javaw MaClasse</span>  =>  Exécute le bytecode MaClass.class sans ouvrir de console</p>
+            </div>
+          </div>
+          <div style="position: absolute; top: 800px; left: 150px" class="animate-show" data-step=3>
+            <img src="./static/images/jar.png" width="150px"/>
+            <div class="important" style="margin-left: 250px;">
+              <p>L'outil jar :</p>
+              <p><span class="code">jar cf test.jar *.class</span>  =>  Création d'un jar avec tous les fichiers .class</p>
+            </div>
           </div>
         </section>
 
