@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- SEO -->
-    <title>Qu'est-ce que Java ?</title>
-    <meta name="description" content="Présentation générale du langage Java">
+    <title>Comment fonctionne Java ?</title>
+    <meta name="description" content="Comment fonctionne Java ?">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
@@ -63,144 +63,71 @@
           <!--.wrap = container (width: 90%) -->
           <div class="wrap aligncenter">
             <h1><strong>Chapitre 1</strong></h1>
-            <h2>Introduction à Java</h2>
+            <h2>Comment fonctionne Java ?</h2>
           </div>
           <!-- .end .wrap -->
         </section>
 
         <section>
-          <span data-step-count=2></span>
+          <span data-step-count=3></span>
           <header>
-            <h1 class="aligncenter"><strong>Histoire de Java</strong></h1>
+            <h1 class="aligncenter"><strong>Fonctionnement d'un compilateur</strong></h1>
           </header>
-          <div class="wrap">
-            <div class="animate-show content-left" data-step=1>
-              <img src="./static/images/gosling.jpeg" style="height: 300px" />
-              <h2><strong>James Gosling</strong></h2>
-            </div>
-            <div class="animate-show content-right" data-step=2>
-              <img src="./static/images/sun.png" />
-            </div>
+          <div style="position: absolute; top: 250px; left: 50px" class="animate-show" data-step=1>
+            <img src="./static/images/codeSource.png" width="500px"/>
+          </div>
+          <div style="position: absolute; top: 400px; left: 450px" class="animate-show" data-step=2>
+            <img src="./static/images/arrowToBotRight.png"/>
+          </div>
+          <div style="position: absolute; top: 450px; left: 650px" class="animate-show" data-step=2>
+            <img src="./static/images/gears.jpg" width="400px"/>
+          </div>
+          <div style="position: absolute; top: 700px; left: 1100px" class="animate-show" data-step=3>
+            <img src="./static/images/arrowToBotRight.png"/>
+          </div>
+          <div style="position: absolute; top: 650px; left: 1300px" class="animate-show" data-step=3>
+            <img src="./static/images/codeMachine.png" width="300px"/>
           </div>
         </section>
 
         <section>
           <span data-step-count=3></span>
           <header>
-            <h1 class="aligncenter"><strong>D'où vient le nom Java ?</strong></h1>
+            <h1 class="aligncenter"><strong>Compilation de Java</strong></h1>
           </header>
-          <div class="wrap" style="height: 958px">
-            <div class="animate-show slide-top content-left" data-step=1>
-              <img src="./static/images/computerCoffee.jpg" style="height: 400px;"/>
-              <h3><strong>Développeurs + Café = ♥︎</strong></h3>
-            </div>
-            <div class="animate-show slide-top content-right" data-step=2>
-              <img src="./static/images/ileJava.jpeg" style="height: 400px;"/>
-              <h3><strong>Ile Java</strong></h3>
-            </div>
-            <div class="animate-show slide-bottom content-center" data-step=3><img src="./static/images/coffee.jpeg" style="height: 400px;"/></div>
+          <div style="position: absolute; top: 250px; left: 50px" class="animate-show" data-step=1>
+            <img src="./static/images/javaSource.png" width="500px"/>
+          </div>
+          <div style="position: absolute; top: 400px; left: 450px" class="animate-show" data-step=2>
+            <img src="./static/images/arrowToBotRight.png"/>
+          </div>
+          <div style="position: absolute; top: 450px; left: 650px" class="animate-show" data-step=2>
+            <img src="./static/images/gears.jpg" width="400px"/>
+          </div>
+          <div style="position: absolute; top: 700px; left: 1100px" class="animate-show" data-step=3>
+            <img src="./static/images/arrowToBotRight.png"/>
+          </div>
+          <div style="position: absolute; top: 750px; left: 1250px" class="animate-show" data-step=3>
+            <img src="./static/images/bytecode.jpg" width="400px"/>
           </div>
         </section>
 
         <section>
+          <span data-step-count=3></span>
           <header>
-            <h1 class="aligncenter"><strong>Versions de Java</strong></h1>
+            <h1 class="aligncenter"><strong>Exécution du bytecode Java</strong></h1>
           </header>
-          <div class="table-wrapper">
-            <table class="fl-table">
-              <tr><thead><th>Version</th><th>Date</th></thead></tr>
-              <tr><td>Java SE 6</td><td>Décembre 2006</td></tr>
-              <tr><td>Java SE 7</td><td>Juillet 2011</td></tr>
-              <tr><td>Java SE 8</td><td>Mars 2014</td></tr>
-              <tr><td>Java SE 9</td><td>Septembre 2017</td></tr>
-              <tr><td>Java SE 10</td><td>Mars 2018</td></tr>
-              <tr><td>Java SE 11</td><td>Septembre 2018</td></tr>
-              <tr><td>Java SE 12</td><td>Mars 2019</td></tr>
-              <tr><td>Java SE 13</td><td>Septembre 2019</td></tr>
-              <tr><td>Java SE 14</td><td>Mars 2020</td></tr>
-              <tr><td>Java SE 15</td><td>Septembre 2020</td></tr>
-              <tr><td>Java SE 16</td><td>Mars 2021</td></tr>
-              <tr><td>Java SE 17</td><td>Septembre 2021</td></tr>
-              <tr><td>Java SE 18</td><td>Mars 2022</td></tr>
-              <tr><td>Java SE 19</td><td>Septembre 2022</td></tr>
-            </table>
+          <div style="position: absolute; top: 250px; left: 50px" class="animate-show" data-step=1>
+            <img src="./static/images/bytecode.jpg" width="500px"/>
           </div>
-        </section>
-
-        <section>
-          <header>
-            <h1 class="aligncenter"><strong>Utilisations de Java</strong></h1>
-          </header>
-          <span data-step-count=6></span>
-
-          <div class="background-center wrap" style="height: 958px; margin-top: 80px; background-image: url('./static/images/javafun.png'); background-size: 200px; background-repeat: no-repeat;">
-            <div class="slide-top" style="height: 300px; margin-top: 80px;">
-              <div class="animate-show content-left" data-step=1 style="width: fit-content;">
-                <img src="./static/images/serveurs.jpg" style="height: 200px;" />
-              </div>
-              <div class="animate-show content-right" data-step=2 style="width: fit-content;">
-                <img src="./static/images/android.png" style="height: 200px;" />
-              </div>
-            </div>
-            <div style="height: 300px; ">
-              <div class="animate-show content-left" data-step=3 style="width: fit-content;">
-                <img src="./static/images/raspberryPi.jpg" style="height: 200px;" />
-              </div>
-              <div class="animate-show content-right" data-step=4 style="width: fit-content;">
-                <img src="./static/images/javafx.png" style="height: 200px;" />
-              </div>
-            </div>
-            <div class="slide-bottom" style="height: 300px;">
-              <div class="animate-show content-left" data-step=5 style="width: fit-content;">
-                <img src="./static/images/toolbox.jpg" style="height: 200px;" />
-              </div>
-              <div class="animate-show content-right" data-step=6 style="width: fit-content;">
-                <img src="./static/images/minecraft.jpg" style="height: 200px;" />
-              </div>
-            </div>
+          <div style="position: absolute; top: 400px; left: 650px" class="animate-show" data-step=2>
+            <img src="./static/images/arrowToBotRight.png"/>
           </div>
-
-        </section>
-
-        <section>
-          <header>
-            <h1 class="aligncenter"><strong>La popularité de java</strong></h1>
-          </header>
-          <div class="wrap">
-            <img src="./static/images/javaPopularity.png" />
+          <div style="position: absolute; top: 450px; left: 850px" class="animate-show" data-step=2>
+            <img src="./static/images/JVM.png" width="400px"/>
           </div>
-        </section>
-
-        <section>
-          <header>
-            <h1 class="aligncenter"><strong>Pourquoi cette popularité ?</strong></h1>
-          </header>
-          <span data-step-count=6></span>
-          <div class="wrap">
-            <div class="slide-top" style="height: 300px; margin-top: 80px;">
-              <div class="animate-show content-left" data-step=1 >
-                <div class="niceBox">Langage haut niveau</div>
-              </div>
-              <div class="animate-show content-right" data-step=2 >
-                <div class="niceBox">Langage multi-paradigmes</div>
-              </div>
-            </div>
-            <div style="height: 300px; ">
-              <div class="animate-show content-left" data-step=3 >
-                <div class="niceBox">Écosystème</div>
-              </div>
-              <div class="animate-show content-right" data-step=4 >
-                <div class="niceBox">Facilement testable</div>
-              </div>
-            </div>
-            <div class="slide-bottom" style="height: 300px;">
-              <div class="animate-show content-left" data-step=5 >
-                <div class="niceBox">Communauté</div>
-              </div>
-              <div class="animate-show content-right" data-step=6 >
-                <div class="niceBox">Librairies</div>
-              </div>
-            </div>
+          <div style="position: absolute; top: 700px; left: 1300px" class="animate-show" data-step=3>
+            <img src="./static/images/refreshArrow.png"/>
           </div>
         </section>
 
